@@ -7,7 +7,7 @@ Our research builds directly on the baseline paper:
 
 ---
 
-## 🌟 Key Research Contributions
+## Key Research Contributions
 
 1. **Consumer Codec Coverage**: Unlike studies focusing solely on legacy telephony codecs (e.g., AMR-WB, SILK), we evaluate detectors against consumer internet codecs (**MP3**, **AAC**, and **Opus**) at bitrates common in messaging apps like WhatsApp and Telegram.
 2. **Augmentation Ablation**: Systematic analysis of which specific codec subset (or combination) chosen during data augmentation generalizes best to unseen compression formats.
@@ -41,7 +41,7 @@ Our research builds directly on the baseline paper:
 
 ---
 
-## 🚀 Execution & Pipeline Steps
+## Execution & Pipeline Steps
 
 ### Step 1: Initialization and Pilot
 - Verification of the ASVspoof 2019 dataset structure.
@@ -70,7 +70,7 @@ Our research builds directly on the baseline paper:
 
 ---
 
-## 📊 Summary of Experiments
+## Summary of Experiments
 
 The JSON files located in the `outputs/` directory contain detailed test results (EERs) for both models evaluated across:
 - **Clean Dev/Eval sets**
