@@ -1,0 +1,101 @@
+{
+  "run": "run8_rawnet2_all_codecs",
+  "model": "RawNet2",
+  "codec_set": "all",
+  "best_dev_eer": 1.6494359605231517,
+  "best_epoch": 30,
+  "asvspooof2019_eval": {
+    "clean": {
+      "overall_eer": 6.187902401885563,
+      "per_system": {
+        "A11": 2.461631703643938,
+        "A14": 1.4905663614025264,
+        "A16": 3.0897694595859093,
+        "A09": 0.43121430273027755,
+        "A13": 1.1985580952270294,
+        "A12": 2.3563718805051224,
+        "A18": 26.986285110010467,
+        "A15": 2.502376013592874,
+        "A08": 5.1677292669814765,
+        "A17": 8.264296823100356,
+        "A10": 3.0082808396880476,
+        "A07": 3.0897694595859093,
+        "A19": 4.312098758053892
+      }
+    }
+  },
+  "wavefake": {
+    "clean": {
+      "ljspeech_full_band_melgan": 51.65,
+      "ljspeech_hifiGAN": 49.35000000000001,
+      "ljspeech_melgan": 48.0,
+      "ljspeech_melgan_large": 48.25000000000001,
+      "ljspeech_multi_band_melgan": 53.949999999999996,
+      "ljspeech_parallel_wavegan": 54.800000000000004,
+      "ljspeech_waveglow": 49.25000000000001
+    },
+    "mp3_32": {
+      "ljspeech_full_band_melgan": 51.7,
+      "ljspeech_hifiGAN": 50.3,
+      "ljspeech_melgan": 49.35000000000001,
+      "ljspeech_melgan_large": 48.25000000000001,
+      "ljspeech_multi_band_melgan": 53.800000000000004,
+      "ljspeech_parallel_wavegan": 55.2,
+      "ljspeech_waveglow": 48.4
+    },
+    "mp3_64": {
+      "ljspeech_full_band_melgan": 51.9,
+      "ljspeech_hifiGAN": 49.75000000000001,
+      "ljspeech_melgan": 48.4,
+      "ljspeech_melgan_large": 47.4,
+      "ljspeech_multi_band_melgan": 53.6,
+      "ljspeech_parallel_wavegan": 55.75,
+      "ljspeech_waveglow": 48.6
+    },
+    "mp3_128": {
+      "ljspeech_full_band_melgan": 52.25,
+      "ljspeech_hifiGAN": 49.5,
+      "ljspeech_melgan": 48.5,
+      "ljspeech_melgan_large": 47.8,
+      "ljspeech_multi_band_melgan": 53.75,
+      "ljspeech_parallel_wavegan": 55.699999999999996,
+      "ljspeech_waveglow": 48.6
+    },
+    "aac_64": {
+      "ljspeech_full_band_melgan": 52.05,
+      "ljspeech_hifiGAN": 49.550000000000004,
+      "ljspeech_melgan": 48.45,
+      "ljspeech_melgan_large": 48.5,
+      "ljspeech_multi_band_melgan": 54.0,
+      "ljspeech_parallel_wavegan": 54.89999999999999,
+      "ljspeech_waveglow": 48.650000000000006
+    },
+    "aac_96": {
+      "ljspeech_full_band_melgan": 51.849999999999994,
+      "ljspeech_hifiGAN": 49.45,
+      "ljspeech_melgan": 48.45,
+      "ljspeech_melgan_large": 48.3,
+      "ljspeech_multi_band_melgan": 53.89999999999999,
+      "ljspeech_parallel_wavegan": 54.699999999999996,
+      "ljspeech_waveglow": 48.650000000000006
+    },
+    "opus_32": {
+      "ljspeech_full_band_melgan": 51.65,
+      "ljspeech_hifiGAN": 48.8,
+      "ljspeech_melgan": 47.5,
+      "ljspeech_melgan_large": 47.599999999999994,
+      "ljspeech_multi_band_melgan": 53.849999999999994,
+      "ljspeech_parallel_wavegan": 54.65,
+      "ljspeech_waveglow": 47.9
+    },
+    "opus_64": {
+      "ljspeech_full_band_melgan": 51.5,
+      "ljspeech_hifiGAN": 49.2,
+      "ljspeech_melgan": 47.8,
+      "ljspeech_melgan_large": 48.050000000000004,
+      "ljspeech_multi_band_melgan": 53.69999999999999,
+      "ljspeech_parallel_wavegan": 54.65,
+      "ljspeech_waveglow": 48.8
+    }
+  }
+}
